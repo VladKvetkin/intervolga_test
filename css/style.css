@@ -1,0 +1,78 @@
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
+	font-weight: 700;
+}
+
+body {
+	font-family: "OpenSansRegular";
+}
+
+.main-header {
+	margin-bottom: 50px;
+
+	font-family: "OpenSansBold";
+	font-size: 32px;
+	text-align: center;
+}
+
+.main-header__inter {
+	color: #DF1E26;
+}
+
+.main-header__volga {
+	color: #040707;
+}
+
+.countries {
+	margin-bottom: 50px;
+}
+
+.cities {
+	margin-bottom: 100px;
+}
+
+.table__caption {
+	font-size: 24px;
+}
+
+.create-country,
+.create-city {
+	display: flex;
+	justify-content: center;
+}
+
+.create-country__title,
+.create-city__title {
+	margin-bottom: 50px;
+
+	color: #5cb85c;
+}
+
+.form-label {
+	font-size: 16px;
+}
+
+.form-submit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-bottom: 30px;
+}
+
+.btn-submit {
+	margin-right: 50px;
+}
+
+.return-to-index {
+	display: flex;
+
+	justify-content: center;
+}
